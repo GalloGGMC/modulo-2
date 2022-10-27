@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+</head>
+<body>
+    <h1>Carrinho</h1>
+    <label for="qtd">Quantidade de produtos</label>
+    <form name="carrinho">
+        <input type="number" name="qtd" id="n" min="0" value="0" readonly>
+        <input type="button" id="mais" value="+" onclick="chama(1)">
+        <input type="button" id="menos" value="-" onclick="chama(-1)">
+
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
